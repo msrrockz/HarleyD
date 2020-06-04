@@ -46,7 +46,7 @@ public class HomePageTest extends TestBase{
 	public void homePageTitleTest() {
 		
 		String actualTitle = homePageObj.homePageTitle();
-		assertEquals(actualTitle, "HarleyDavidson India");
+		assertEquals(actualTitle, "Harley-Davidson India");
 	}
 	
 	@Test(priority=2,groups="pageValidation")

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="com.hds.qa.tests.EventCalenderPageTest">
+        <methods>
+          <include name="findEvents"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.hds.qa.tests.EventCalenderPageTest -->
+      <class name="com.hds.qa.tests.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="homePageLogoTest"/>
+          <include name="goToEventCalendarPageTest"/>
+          <include name="goToMotorcyclesPage"/>
+        </methods>
+      </class> <!-- com.hds.qa.tests.HomePageTest -->
+      <class name="com.hds.qa.tests.MotorcyclesPageTest">
+        <methods>
+          <include name="bottomPageIMGLinksTest"/>
+          <include name="motocyclesPageTileTest"/>
+          <include name="clickOnCats" invocation-numbers="0 1 2"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="vehiclesModelsLinksTest"/>
+        </methods>
+      </class> <!-- com.hds.qa.tests.MotorcyclesPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
